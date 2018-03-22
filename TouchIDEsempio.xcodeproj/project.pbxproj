@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7B4D17612063BE4600450AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D17602063BE4600450AED /* AppDelegate.swift */; };
-		7B4D17632063BE4600450AED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D17622063BE4600450AED /* ViewController.swift */; };
+		7B4D17632063BE4600450AED /* VerificaBiometricaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D17622063BE4600450AED /* VerificaBiometricaVC.swift */; };
 		7B4D17662063BE4600450AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4D17642063BE4600450AED /* Main.storyboard */; };
 		7B4D17682063BE4700450AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4D17672063BE4700450AED /* Assets.xcassets */; };
 		7B4D176B2063BE4700450AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4D17692063BE4700450AED /* LaunchScreen.storyboard */; };
+		7B6544FB2063CAD900BFFE11 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6544FA2063CAD900BFFE11 /* UILabelExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B4D175D2063BE4600450AED /* TouchIDEsempio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchIDEsempio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4D17602063BE4600450AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B4D17622063BE4600450AED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B4D17622063BE4600450AED /* VerificaBiometricaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificaBiometricaVC.swift; sourceTree = "<group>"; };
 		7B4D17652063BE4600450AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B4D17672063BE4700450AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B4D176A2063BE4700450AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B4D176C2063BE4700450AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6544FA2063CAD900BFFE11 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				7B4D17602063BE4600450AED /* AppDelegate.swift */,
-				7B4D17622063BE4600450AED /* ViewController.swift */,
+				7B4D17622063BE4600450AED /* VerificaBiometricaVC.swift */,
+				7B6544FA2063CAD900BFFE11 /* UILabelExtension.swift */,
 				7B4D17642063BE4600450AED /* Main.storyboard */,
 				7B4D17672063BE4700450AED /* Assets.xcassets */,
 				7B4D17692063BE4700450AED /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4D17632063BE4600450AED /* ViewController.swift in Sources */,
+				7B4D17632063BE4600450AED /* VerificaBiometricaVC.swift in Sources */,
+				7B6544FB2063CAD900BFFE11 /* UILabelExtension.swift in Sources */,
 				7B4D17612063BE4600450AED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
